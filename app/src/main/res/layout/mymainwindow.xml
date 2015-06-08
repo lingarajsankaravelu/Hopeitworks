@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+    </EditText>
+   <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+        
+        <TableRow >
+            
+        <TextView
+        android:id="@+id/linkalonetextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share link alone" />
+        
+        <TextView
+        android:id="@+id/linkwithdatatextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share link with data" />
+        
+        </TableRow>
+<TableRow >
+    
+    <Button
+        android:id="@+id/linksend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/linkreceive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive" />
+    
+     </TableRow>
+<TableRow >
+      <Button
+        android:id="@+id/linkdatasend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/linkdatareceive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive" />
+    
+    
+</TableRow>
+              
+    </TableLayout>
+
+</LinearLayout>
